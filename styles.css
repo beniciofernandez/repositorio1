@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding:180px 40px;
+    width:40%;
+    font-size: larger;
+    
+}
+
+h1{
+    font-size: 3em;
+}
+img{
+    
+}
+ol{
+    text-align: center;
+}
+#pros{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul{list-style-type: none;
+
+}
+ol{
+    width: 50%;
+}
+div{
+    display: flex;
+}
+
+section.uno{
+    height: 100vh;
+}
+.ctainicial{
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap-reverse;
+
+    align-items: center;
+}
+
+section div img {
+    width: 50%;
+   order:1;
+   object-fit: contain;
+   bor der: 1px solid red;
+}
+
+nav{
+order:2;
+
+}
+#tabla 
+
