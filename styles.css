@@ -1,62 +1,118 @@
+*{margin:0px;
+padding:0px;}
+
 body{
-    text-align: center;
+    background-color: #fff8e1;
     font-size: 18px;
 }
-p{
-    text-align: center;
-    padding:180px 40px;
-    width:40%;
-    font-size: larger;
+
+
+
+section div div a{display: b lock; background-c olor:red;
+
+
+    width: 5vw;  /* El ancho es el 15% del ancho de la ventana */
+    height:auto;  /* La altura es el 5% de la altura de la ventana */
     
+
 }
 
-h1{
-    font-size: 3em;
+div.ctainicial a img{width:100%;height:100%;}
+
+
+
+section div img {
+    width: 100%;
+    height: auto;
+   object-fit: cover;
+   border: 1px solid red;
 }
-img{
-    
+
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    bor der: 1px solid green;
+   
+}
+p{ margin:45px;
+    text-align: center;
+    wi dth:40%;
+    f ont-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section div:nth-child(2){
+    width: 50%;
+}
+section div a img{
+    width: 100%;
+    height: 10%;
 }
 ol{
     text-align: center;
 }
 #pros{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
 }
 
 nav ul{list-style-type: none;
-
+    text-align: center;
 }
 ol{
     width: 50%;
 }
-div{
-    display: flex;
-}
+
 
 section.uno{
-    height: 100vh;
-}
-.ctainicial{
-
+    width: 100%;
+    he ight: 80vh;
     display: flex;
-    flex-direction: row;
-    flex-flow: row wrap-reverse;
+    ali gn-items:center;
+}
 
+
+.ctainicial{
+    b order: 5px solid rgb(15, 45, 88);
+        display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+  
 }
 
-section div img {
+#div1{
     width: 50%;
-   order:1;
-   object-fit: contain;
-   bor der: 1px solid red;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid red;
+    backgrou nd-color: green ;
+    height: auto;
 }
 
-nav{
-order:2;
 
+
+nav ul li a{
+    justify-content: center;
+    display: flex;
 }
-#tabla 
-
+table, th, tr, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+table tr td img{
+    height: 150px;
+    width: 150px;
+}
+section#tabla{
+    display: flex;
+    justify-content: center;
+}
+table th{
+    background-color: white;
+}
