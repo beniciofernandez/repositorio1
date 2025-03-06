@@ -133,3 +133,38 @@ section#testimonios div{
     justify-content: space-between;
     align-items: center;
 }
+section#formulario form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+section#formulario div a img{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+
+}
+section#formulario input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    flex-direction: row;
+}
+section#formulario form {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+section#formulario button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
